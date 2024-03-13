@@ -85,12 +85,7 @@ function buildList(jobs) {
         html.innerHTML += `<option value = "${job.salary}">${job.occupation}</option>`
     }
 
-    // list.forEach((a, b) => {
-    //     // html.innerHTML += `<option value = "${a}">${b}</option>`
-    // })
-
-
-    //return the completed html
+    //return completed html
     return html;
 }
 
@@ -102,3 +97,7 @@ function insertSalary() {
 document.addEventListener('DOMContentLoaded', init());
 
 //change inside of salary box when option is selected
+
+document.getElementById("chooseCareer").addEventListener("change", function() {
+    console.log("works");
+});
