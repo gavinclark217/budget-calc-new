@@ -42,7 +42,7 @@
 97C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\chart.js\dist\core\core.layouts.d.ts133548196045120699 0
 105C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\caniuse-lite\data\features\css-appearance.js133548196046333269 0
 81C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\ramda\src\unapply.js133548196081367427 0
-63C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.html133548229953058500 0
+63C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.html133548239281709775 0
 95C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\caniuse-lite\dist\lib\supported.js133548196086784155 0
 101C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\type-fest\source\conditional-except.d.ts133548195987654596 0
 98C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\core-js\stable\array\last-index-of.js133548196135268072 0
@@ -84,7 +84,7 @@
 107C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\core-js\internals\array-iteration-from-last.js133548196040520140 0
 92C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\dayjs\plugin\bigIntSupport.d.ts133548196069197887 0
 112C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_load.c133548196026717392 0
-61C:\Users\gavin\Documents\GitHub\budget-calc-new\calculator.js133548232566029757 0
+61C:\Users\gavin\Documents\GitHub\budget-calc-new\calculator.js133548239255855638 0
 84C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\semver\functions\neq.js133548196009338544 0
 87C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\csso\cjs\clean\Comment.cjs133548195998778187 0
 106C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133548195972656166 0
@@ -101,7 +101,7 @@
 80C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\ramda\src\unless.js133548196082402937 0
 126C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\prefixIds.js133548196021671269 0
 85C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\abortcontroller-polyfill133548195994427629 1
-52C:\Users\gavin\Documents\GitHub\budget-calc-new\dist133548232567062934 1
+52C:\Users\gavin\Documents\GitHub\budget-calc-new\dist133548239281790021 1
 96C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\core-js\stable\instance\flat-map.js133548196106427902 0
 98C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\.bin\node-gyp-build-optional-packages133548196243051760 0
 76C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\ramda\src\__.js133548195954611791 0
@@ -114,7 +114,7 @@
 70C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\lru-cache133548195959906659 1
 112C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\css-select\node_modules\entities\lib\index.d.ts.map133548196028506188 0
 128C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\index.js133548196036179599 0
-58C:\Users\gavin\Documents\GitHub\budget-calc-new\index.html133548229948918191 0
+58C:\Users\gavin\Documents\GitHub\budget-calc-new\index.html133548239280686183 0
 92C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\core-js\full\typed-array\map.js133548196137475818 0
 125C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\_collections.js133548195973188698 0
 90C:\Users\gavin\Documents\GitHub\budget-calc-new\node_modules\core-js\es\typed-array\set.js133548196154809149 0
@@ -11227,5 +11227,5 @@
 74C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.a23f1c26.js.map133548229123224748 0
 71C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.3a01df49.css133548229123992442 0
 75C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.3a01df49.css.map133548229124058965 0
-70C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.c615aead.js133548232567002811 0
-74C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.c615aead.js.map133548232567062934 0
+70C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.c615aead.js133548239257068139 0
+74C:\Users\gavin\Documents\GitHub\budget-calc-new\dist\index.c615aead.js.map133548239257183696 0

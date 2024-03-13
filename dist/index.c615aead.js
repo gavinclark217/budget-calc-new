@@ -74,6 +74,7 @@ document.addEventListener("input", function(event) {
 });
 document.addEventListener("input", function(event) {
     if (event.target.id !== "userInput") return;
+    console.log("works");
     let housing = document.getElementById("Housing").value;
     let utilities = document.getElementById("Utilities");
     let transport = document.getElementById("Transportation");
