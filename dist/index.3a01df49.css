@@ -1,0 +1,83 @@
+header {
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  color: #0c9000;
+}
+
+.top {
+  justify-content: center;
+  display: flex;
+}
+
+.input {
+  flex-direction: column;
+  width: 66%;
+  padding: 15px;
+  display: flex;
+}
+
+.pieChart {
+  border: 2px solid #0c9000;
+  width: 33%;
+  margin-top: 1.8rem;
+  padding: 15px;
+}
+
+.userInput {
+  flex-direction: row;
+  display: flex;
+}
+
+.column1, .column2 {
+  flex-flow: column;
+  margin: .9rem;
+  display: flex;
+}
+
+input {
+  margin: .3rem;
+}
+
+#chooseCareer {
+  width: 380px;
+  margin-top: .9rem;
+  margin-left: .9rem;
+}
+
+table {
+  border: 2px solid #0c9000;
+  width: 41rem;
+  height: 20rem;
+}
+
+tr, th {
+  border: 2px solid #0c9000;
+}
+
+.tableTaxes {
+  flex-direction: column;
+  align-items: center;
+  width: 41rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.taxes {
+  justify-content: center;
+  width: 41rem;
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+#incomeGross, .monthlyNetIncome {
+  margin: 1rem;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */

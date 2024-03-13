@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="/index.3a01df49.css">
+</head>
+
+<body>
+    <header>
+        <h1>Budget Calculator</h1>
+    </header>
+    <section class="content">
+        <section class="top">
+            <section class="input">
+
+                <form action="" id="myForm">
+                    <select name="careers" id="chooseCareer">
+                        <!-- <option value="Accountant">Accountant</option>
+                        <option value="Adv. Tractor/Trailer Driver">Adv. Tractor/Trailer Driver</option>
+                        <option value="Agricultural Engineer">Agricultural Engineer</option>
+                        <option value="Architect">Architect</option>
+                        <option value="Auto Tech/Mechanic">Auto Tech/Mechanic</option>
+                        <option value="Aviation Tech/Mechanic">Aviation Tech/Mechanic</option>
+                        <option value="Biologist">Biologist</option>
+                        <option value="Bus Driver">Bus Driver</option>
+                        <option value="Business Dev. Officer">Business Dev. Officer</option>
+                        <option value="Business Manager">Business Manager</option>
+                        <option value="CNC Manufacturing">CNC Manufacturing</option>
+                        <option value="Carpenter">Carpenter</option>
+                        <option value="Chef">Chef</option>
+                        <option value="Chemist Civil Eng.">Chemist Civil Eng.</option>
+                        <option value="Civil Engineering Tech.">Civil Engineering Tech.</option>
+                        <option value="Commercial Driver">Commercial Driver</option>
+                        <option value="Computer Technician">Computer Technician</option>
+                        <option value="Correctional Officer">Correctional Officer</option>
+                        <option value="Cosmetologist">Cosmetologist</option>
+                        <option value="Credit Union/Bank Mgr">Credit Union/Bank Mgr</option>
+                        <option value="Daycare Director">Daycare Director</option>
+                        <option value="Dentist">Dentist</option>
+                        <option value="Detective">Detective</option>
+                        <option value="Diesel Tech/Mechanic">Diesel Tech/Mechanic</option>
+                        <option value="Doctor/Physician">Doctor/Physician</option>
+                        <option value="Electrician">Electrician</option>
+                        <option value="Electronic Engineer">Electronic Engineer</option>
+                        <option value="EMT">EMT</option>
+                        <option value="Energy Mgmt">Energy Mgmt</option>
+                        <option value="Engineer">Engineer</option>
+                        <option value="Environmental Scientist">Environmental Scientist</option>
+                        <option value="Fashion Designer">Fashion Designer</option>
+                        <option value="Fire Fighter">Fire Fighter</option>
+                        <option value="Forensic Pathologist">Forensic Pathologist</option>
+                        <option value="Forest Ranger">Forest Ranger</option>
+                        <option value="Graphic Design Spec.">Graphic Design Spec.</option>
+                        <option value="H/C HVAC">H/C HVAC</option>
+                        <option value="Highway Patrol">Highway Patrol</option>
+                        <option value="Home Inspector">Home Inspector</option>
+                        <option value="Industrial Mechanic">Industrial Mechanic</option>
+                        <option value="Interior Designer">Interior Designer</option>
+                        <option value="Investment Analyst">Investment Analyst</option>
+                        <option value="Lab Technician">Lab Technician</option>
+                        <option value="Landscaper/Horticulture">Landscaper/Horticulture</option>
+                        <option value="Lawyer">Lawyer</option>
+                        <option value="Marketing/Sales Mgr">Marketing/Sales Mgr</option>
+                        <option value="Media/Communications">Media/Communications</option>
+                        <option value="Medical Repair Tech.">Medical Repair Tech.</option>
+                        <option value="Military">Military</option>
+                        <option value="Nurse">Nurse</option>
+                        <option value="Nutritionist">Nutritionist</option>
+                        <option value="Oceanographer">Oceanographer</option>
+                        <option value="Pastor">Pastor</option>
+                        <option value="PG&EAT&T Tech.">PG&EAT&T Tech.</option>
+                        <option value="Pharmacist">Pharmacist</option>
+                        <option value="Photographer">Photographer</option>
+                        <option value="Physical Therapist">Physical Therapist</option>
+                        <option value="Pilot (Commercial)">Pilot (Commercial)</option>
+                        <option value="Plumber">Plumber</option>
+                        <option value="Police Officer">Police Officer</option>
+                        <option value="Principal">Principal</option>
+                        <option value="Probation Officer">Probation Officer</option>
+                        <option value="Psychologist">Psychologist</option>
+                        <option value="Retail Sales Associate">Retail Sales Associate</option>
+                        <option value="Social Worker">Social Worker</option>
+                        <option value="Solar Energy Tech.">Solar Energy Tech.</option>
+                        <option value="Speech Pathologist">Speech Pathologist</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="UPS/Fed Ex Driver">UPS/Fed Ex Driver</option>
+                        <option value="Veterinarian">Veterinarian</option>
+                        <option value="Welder/Metal Spec.">Welder/Metal Spec.</option>
+                        <option value="Wind Energy Tech.">Wind Energy Tech.</option> -->
+                    </select>
+                </form>
+                <form action="" id="incomeGross">
+                    <label for="grossIncome">Enter your gross income:</label>
+                    <input type="text" id="grossIncome">
+                </form>
+                <section class="monthlyNetIncome">
+                    <p>Your monthly after-tax income is:</p>
+                    <div id="monthlyNetIncome"></div>
+                </section>
+                <section class="userInput">
+                    <section class="column1">
+                        <input type="text" name="" placeholder="Housing" id="Housing">
+                        <input type="text" name="" placeholder="Transportation" id="Transportation">
+                        <input type="text" name="" placeholder="Debt" id="Debt">
+                        <input type="text" name="" placeholder="Entertainment" id="Entertainment">
+                    </section>
+                    <section class="column2">
+                        <input type="text" name="" placeholder="Utilities" id="Utilities">
+                        <input type="text" name="" placeholder="Food" id="Food">
+                        <input type="text" name="" placeholder="Clothing" id="Clothing">
+                        <input type="text" name="" placeholder="Savings" id="Savings">
+                    </section>
+                </section>
+
+            </section>
+
+            <section class="pieChart">
+
+                <div id="pieChart">
+                    <div style="width: 800px"><canvas id="chart"></canvas></div>
+                    <script src="/index.a23f1c26.js" defer=""></script>
+                </div>
+                <p>Monthly budget difference:</p>
+                <div class="budgetDifference">
+
+                </div>
+
+            </section>
+
+        </section>
+
+        <section class="taxes">
+            <section class="tableTaxes">
+                <h1>Table of Taxes</h1>
+                <table>
+                    <tr>
+                        <th>Federal taxes</th>
+                        <th>12%</th>
+                    </tr>
+                    <tr>
+                        <th>State taxes</th>
+                        <th>7%</th>
+                    </tr>
+                    <tr>
+                        <th>Social Security</th>
+                        <th>6.2%</th>
+                    </tr>
+                    <tr>
+                        <th>Medicare</th>
+                        <th>1.45%</th>
+                    </tr>
+                    <tr>
+                        <th>State Disability</th>
+                        <th>1%</th>
+                    </tr>
+                    <tr>
+                        <th>Retirement Investment</th>
+                        <th>5%</th>
+                    </tr>
+                    <tr>
+                        <th>Medical Insurance</th>
+                        <th>$180.00</th>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+
+
+
+</body>
+
+</html>
