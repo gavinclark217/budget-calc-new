@@ -89,15 +89,31 @@ function buildList(jobs) {
     return html;
 }
 
-function insertSalary() {
-
-}
-
 //initialize the web page when the DOM is ready
 document.addEventListener('DOMContentLoaded', init());
 
 //change inside of salary box when option is selected
 
-document.getElementById("chooseCareer").addEventListener("change", function() {
-    console.log("works");
+document.addEventListener("input", function(event) {
+    if (event.target.id !== 'chooseCareer') return;
+    let income = Math.round(((event.target.value * 0.6735) - 180) / 12);
+
+    document.getElementById('monthlyNetIncome').innerHTML = `<p>${income}</p>`;
+});
+
+document.addEventListener("input", function(event) {
+    if (event.target.id !== 'userInput') return;
+
+    let housing = document.getElementById('Housing').value;
+    let utilities = document.getElementById('Utilities');
+    let transport = document.getElementById('Transportation');
+    let food = document.getElementById('Food');
+    let debt = document.getElementById('Debt');
+    let clothing = document.getElementById('Clothing');
+    let entertainment = document.getElementById('Entertainment');
+    let savings = document.getElementById('Savings');
+
+    let difference = income - housing - utilities - transport - food - debt - clothing - entertainment - savings;
+
+    document.getElementById('budgetDifference').innerHTML = `<p>${difference}</p>`;
 });

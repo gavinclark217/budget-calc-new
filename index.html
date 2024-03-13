@@ -18,36 +18,36 @@
             <section class="input">
                 <form action="" id="myForm">
                     <select name="careers" id="chooseCareer">
-                        <option value="none">Select one</option>
+                        <option value="">Select one</option>
                     </select>
                 </form>
                 <form action="" id="grossIncome">
                     <label for="grossIncome">Enter your gross income:</label>
-                    <input type="text" id="grossIncomeInput">
+                    <input type="number" id="grossIncomeInput">
                 </form>
                 <section class="monthlyNetIncome">
                     <p>Your monthly after-tax income is:</p>
                     <div id="monthlyNetIncome"></div>
                 </section>
-                <section class="userInput">
+                <section class="userInput" id="userInput">
                     <section class="column1">
-                        <input type="text" name="" placeholder="Housing" id="Housing">
-                        <input type="text" name="" placeholder="Transportation" id="Transportation">
-                        <input type="text" name="" placeholder="Debt" id="Debt">
-                        <input type="text" name="" placeholder="Entertainment" id="Entertainment">
+                        <input type="number" name="" placeholder="Housing" id="Housing">
+                        <input type="number" name="" placeholder="Transportation" id="Transportation">
+                        <input type="number" name="" placeholder="Debt" id="Debt">
+                        <input type="number" name="" placeholder="Entertainment" id="Entertainment">
                     </section>
                     <section class="column2">
-                        <input type="text" name="" placeholder="Utilities" id="Utilities">
-                        <input type="text" name="" placeholder="Food" id="Food">
-                        <input type="text" name="" placeholder="Clothing" id="Clothing">
-                        <input type="text" name="" placeholder="Savings" id="Savings">
+                        <input type="number" name="" placeholder="Utilities" id="Utilities">
+                        <input type="number" name="" placeholder="Food" id="Food">
+                        <input type="number" name="" placeholder="Clothing" id="Clothing">
+                        <input type="number" name="" placeholder="Savings" id="Savings">
                     </section>
                 </section>
             </section>
 
             <section class="pieChart">
                 <div id="pieChart">
-                    <div style="width: 800px;"><canvas id="chart"></canvas></div>
+                    <div style="width: 250px;"><canvas id="chart"></canvas></div>
                     <script type="module" src="chart.js"></script>
                 </div>
                 <p>Monthly budget difference:</p>
