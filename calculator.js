@@ -96,10 +96,20 @@ document.addEventListener('DOMContentLoaded', init());
 
 document.addEventListener("input", function(event) {
     if (event.target.id !== 'chooseCareer') return;
-    let income = Math.round(((event.target.value * 0.6735) - 180) / 12);
-
-    document.getElementById('monthlyNetIncome').innerHTML = `<p>${income}</p>`;
+    //change gross income box
+    document.getElementById('grossIncomeInput').value = event.target.value;
+    //display net income
+    income = Math.round(((event.target.value * 0.6735) - 180) / 12);
+    document.getElementById('monthlyNetIncome').innerHTML = `<p>${income + 15}</p>`;
 });
+
+button.addEventListener("click", changeNetIncome);
+
+function changeNetIncome() {
+    let income = Math.round(((document.getElementById('grossMonthlyIncome').value * 0.6735) - 180) / 12);
+    document.getElementById('monthlyNetIncome').innerHTML = `<p>${income + 15}</p>`;
+
+}
 
 document.addEventListener("input", function(event) {
     if (event.target.id !== 'userInput') return;
